@@ -60,7 +60,7 @@ function Notes(props) {
           type="text"
           style={props.elstyle}
           
-          className={`example text-sm md:text-lg w-[100%] ${isvisible ? "bg-green-100" : "bg-yellow-100"} rounded-lg p-5 text-base $`}
+          className={`example text-sm md:text-lg w-[100%] ${isvisible ? "bg-green-200" : "bg-yellow-100"} rounded-lg p-5 text-base $`}
           value={isvisible ? updatedata : props.notedata}
           disabled={isvisible ? false : true}         
         />
